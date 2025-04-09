@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Rise - Passion in Cup</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <!-- قسم الهيدر -->
+  <header class="header">
+    <div class="logo">
+      <h1>RISE</h1>
+      <p>PASSION IN CUP</p>
+    </div>
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#menu">المنيو</a></li>
+        <li><a href="#contact">تواصل معنا</a></li>
+        <li><a href="#payment">وسائل الدفع</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- زر واتساب للتواصل -->
+  <a href="https://wa.me/01234567890" class="whatsapp-btn" target="_blank">
+    تواصل على واتساب
+  </a>
+
+  <!-- قسم المنيو -->
+  <section id="menu" class="menu-section">
+    <h2>منيو Rise</h2>
+    <div class="menu-items">
+      <!-- مثال لعنصر من عناصر المنيو -->
+      <div class="menu-item">
+        <img src="images/coffee1.png" alt="Turkish Coffee">
+        <div class="item-details">
+          <h3>Turkish Coffee</h3>
+          <p>السعر: 50 جنيه</p>
+        </div>
+      </div>
+      <!-- يمكن تكرار نفس البنية لباقي المشروبات -->
+    </div>
+  </section>
+
+  <!-- قسم الكؤوس مع اسم المحل على الكوب (الشكل مشابه للتصميم الأول) -->
+  <section class="cup-section">
+    <h2>كؤوس مميزة</h2>
+    <div class="cup-gallery">
+      <div class="cup-item">
+        <div class="cup-image">
+          <img src="images/cup.png" alt="Cup">
+          <!-- تراكب الكتابة على الكوب -->
+          <div class="cup-overlay">RISE</div>
+        </div>
+      </div>
+      <!-- تكرار البلوكة لو عندك أكتر من كوب -->
+    </div>
+  </section>
+
+  <!-- قسم وسائل الدفع -->
+  <section id="payment" class="payment-section">
+    <h2>وسائل الدفع</h2>
+    <div class="payment-options">
+      <img src="images/vodafone_cash.png" alt="Vodafone Cash">
+      <img src="images/instapay.png" alt="Insta Pay">
+    </div>
+  </section>
+
+  <!-- الفوتر مع روابط التواصل الاجتماعي -->
+  <footer id="contact" class="footer">
+    <h2>تواصل معنا</h2>
+    <div class="social-media">
+      <a href="https://instagram.com/yourinsta" target="_blank">إنستجرام</a>
+      <a href="https://tiktok.com/@yourtiktok" target="_blank">تيك توك</a>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
